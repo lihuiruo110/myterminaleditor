@@ -1,0 +1,18 @@
+---
+
+## **배포**
+
+1. **GitHub에 업로드**  
+   - 이 모든 파일들을 GitHub에 업로드합니다. 기본적으로 프로젝트는 `https://github.com/lihuiruo/myterminaleditor`와 같은 URL로 배포될 것입니다.
+   
+2. **`pip` 설치 가능하게 하기**  
+   - `setup.py`를 통해 `pip` 설치가 가능해지며, `pip install git+https://github.com/lihuiruo/myterminaleditor` 명령어로 프로젝트를 설치할 수 있습니다.
+
+3. **예시 HTML 페이지로 기능 테스트**  
+   - `public/demo.html`에서 기능을 테스트할 수 있습니다. 이 HTML 파일을 통해 실제로 터미널과 코드 에디터가 동작하는지 확인할 수 있습니다.
+
+---
+
+이렇게 하면, 나만의 터미널과 코드 편집기 UI를 포함한 모듈을 Python 패키지로 배포하고, 다른 사람들이 쉽게 사용할 수 있도록 할 수 있습니다. 
+
+도움이 되었길 바랍니다! 추가적으로 필요한 부분이 있으면 언제든지 말씀해 주세요!
